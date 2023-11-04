@@ -1,5 +1,8 @@
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
+import Footer from "./components/Footer/Footer";
+import VideoForm from "./components/Body/VideoForm";
+
 import "./App.css";
 
 function App() {
@@ -7,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Body />
-      <h1 className="text-sm font-bold underline">Hai Bro!</h1>
+      <Footer />
     </div>
   );
 }
